@@ -7,7 +7,6 @@
 body{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,11 +19,12 @@ figure.snip1390 {
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
   min-width: 230px;
   max-width: 345px;
   top:255px;
   color: #000000;
-  text-align: center;
+  text-align: left;
   align-items: center;
   justify-content: center;
   font-size: 16px;
@@ -39,21 +39,12 @@ figure.snip1390 figcaption {
   width: 100%;
   display: flex;
 }
+
 figure.snip1390 h2,
-figure.snip1390 h4,
-figure.snip1390 blockquote {
-  margin: 0;
-}
-figure.snip1390 h2,
-figure.snip1390 h4 {
+figure.snip1390 p {
   font-weight: 300;
 }
-figure.snip1390 h2 {
-  color: #ffffff;
-}
-figure.snip1390 h4 {
-  color: #a6a6a6;
-}
+
 figure.snip1390 .text{
     line-height: 40px;
     padding: 10px;
@@ -66,10 +57,12 @@ figure.snip1390 .text span{
 
 }
 figure.snip1390 a{
-    font-weight: 700;
     color: #000000;
     text-decoration: none;
 
+}
+figure.snip1390 .site{
+  font-weight: 400;
 }
 
 figure.snip1390 img {
